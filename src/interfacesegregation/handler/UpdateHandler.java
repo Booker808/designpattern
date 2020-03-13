@@ -34,7 +34,7 @@ public class UpdateHandler {
                                                      String.valueOf(Math.random()));
                                              for (Updater updater : updaters) {
                                                  updater.updateSource(dataSource);
-                                                 System.out.println(updater.toString());
+                                                 System.out.println("实时热替换配置信息：" + updater.toString());
                                              }
                                          }
                                      },

@@ -2,7 +2,9 @@ package interfacesegregation;
 
 import interfacesegregation.config.ElasticSearchConfig;
 import interfacesegregation.config.MysqlConfig;
+import interfacesegregation.config.RedisConfig;
 import interfacesegregation.handler.UpdateHandler;
+import interfacesegregation.handler.ViewHandler;
 
 public class Main1 {
 
@@ -13,5 +15,9 @@ public class Main1 {
         updateHandler.addUpdater(new MysqlConfig());
         updateHandler.addUpdater(new ElasticSearchConfig());
         updateHandler.run();
+        // 另一个任务启动
+        ViewHandler viewHandler = new ViewHandler(1, 1);
+        viewHandler.addViewer(new RedisConfig());
+        viewHandler.run();
     }
 }
