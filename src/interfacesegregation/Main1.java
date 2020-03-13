@@ -1,8 +1,8 @@
-package Interfacesegregation;
+package interfacesegregation;
 
-import Interfacesegregation.config.ElasticSearchConfig;
-import Interfacesegregation.config.MysqlConfig;
-import Interfacesegregation.handler.UpdateHandler;
+import interfacesegregation.config.ElasticSearchConfig;
+import interfacesegregation.config.MysqlConfig;
+import interfacesegregation.handler.UpdateHandler;
 
 public class Main1 {
 

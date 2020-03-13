@@ -1,7 +1,7 @@
-package Interfacesegregation.config;
+package interfacesegregation.config;
 
-import Interfacesegregation.Updater;
-import Interfacesegregation.source.DataSource;
+import interfacesegregation.Updater;
+import interfacesegregation.source.DataSource;
 
 public class ElasticSearchConfig implements Updater {
 

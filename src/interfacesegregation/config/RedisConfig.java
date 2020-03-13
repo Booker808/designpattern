@@ -1,6 +1,6 @@
-package Interfacesegregation.config;
+package interfacesegregation.config;
 
-import Interfacesegregation.source.DataSource;
+import interfacesegregation.source.DataSource;
 
 public class RedisConfig {
 

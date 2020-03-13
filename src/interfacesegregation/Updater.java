@@ -1,6 +1,6 @@
-package Interfacesegregation;
+package interfacesegregation;
 
-import Interfacesegregation.source.DataSource;
+import interfacesegregation.source.DataSource;
 
 public interface Updater {
     void updateSource(DataSource dataSource);

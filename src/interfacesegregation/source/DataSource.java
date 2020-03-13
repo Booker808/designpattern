@@ -1,4 +1,4 @@
-package Interfacesegregation.source;
+package interfacesegregation.source;
 
 public class DataSource {
 

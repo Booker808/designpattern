@@ -1,7 +1,7 @@
-package Interfacesegregation.handler;
+package interfacesegregation.handler;
 
-import Interfacesegregation.Updater;
-import Interfacesegregation.source.DataSource;
+import interfacesegregation.Updater;
+import interfacesegregation.source.DataSource;
 
 import java.util.ArrayList;
 import java.util.List;
